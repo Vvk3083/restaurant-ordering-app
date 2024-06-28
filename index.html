@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Ordering App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jimmy's Diner</h1>
+        <p>The best burgers and pizzas in town.</p>
+    </header>
+    <main>
+        <div class="store-menu" id="store-menu">
+            <!-- <div class="desc">
+                <h1>🍕</h1>
+                <div class="detail">
+                    <p>Pizza</p>
+                    <p>pepperoni,mushrom,mozarella</p>
+                    <p>$14</p>
+                </div>
+                <button class="plus">+</button>
+            </div> -->
+        </div>
+        <div class="order-final">
+            <h3>Your order</h3>
+            <div id="to-display" class="to-display">
+                <!-- <div class="ordered-items">
+                    <p>Pizza</p>
+                    <button>remove</button> 
+                    <p>$14</p>
+                </div>
+                <hr>-->
+            </div>
+            <div class="final-amount" id="final-amount">
+                <!-- <div class="inner-total">
+                    <p>Total price:</p>
+                    <p>$${finalAmount}</p> 
+                </div>
+                <button type="submit" class="final-order" id="final-order">Complete order</button> -->
+            </div>
+        </div>
+        <form id ="form" class="form">
+            <label>Enter card details</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="number" name="cardNumber" placeholder="Enter card number" required>
+            <input type="number" name="CVV" placeholder="Enter CVV" required>
+            <button type="submit" class="pay" id="pay" >PAY</button>
+        </form>
+        <div id="gratitude" class="gratitude">
+            <!-- <p>Thanks james your order is on the way</p> -->
+        </div>
+    </main>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

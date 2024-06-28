@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width:600px;
+    margin:0 auto;
+    background-image: url("bgimg.svg");
+    color: white;
+    max-height: 167px;
+    padding: 20px;
+    font-family: Smythe;
+}
+main{
+    margin: 0 auto;
+    max-width:600px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    font-family: Smythe;
+    padding:20px;
+}
+.desc h1{
+    font-size: 43px;
+}
+.detail{
+    margin-right: auto;
+    margin-left:4px;
+}
+.plus{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: #DEDEDE;
+    color: #3C3C3C;
+}
+hr{
+    border:1px solid black
+}
+.order-final{
+    text-align: center;
+    font-family: Smythe;
+}
+.ordered-items{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.ordered-items button{
+    border: none;
+    margin-left: 10px;
+    font-size: 08px;
+}
+.ordered-items,.final-amount{
+    display: flex;
+}
+.ordered-items button{
+    margin-right: auto;
+}
+.final-amount {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+.to-display{
+    padding: 10px;
+}
+.inner-total{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.final-order{
+    width:100%;
+    background-color: #16DB99;
+    border: none;
+    height: 40px;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+input{
+    margin: 10px 0px;
+    height:30px;
+    border: 1px solid;
+}
+form button{
+    margin-top: 10px;
+    height:30px;
+    color: white;
+    background-color: #16DB99;
+    font-family: Verdana;
+    font-weight: bold;
+    border: none;
+}
+.gratitude{
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 32px;
+    height: 70px;
+    text-align: center;
+    line-height: 2;
+    display:none;
+}
+.toggle{
+    display: block;
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 32px;
+    height: 70px;
+    text-align: center;
+    line-height: 2;
+}
+.form{
+    display: none;
+    width:545px;
+    margin:0 auto;
+    background-color: white;
+
+}
+.toggle2{
+    width:545px;
+    margin:0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.hidden{
+    display: none;
+}
